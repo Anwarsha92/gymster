@@ -1,0 +1,347 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chewy&family=Kanit:wght@100&family=Oleo+Script&family=Press+Start+2P&family=Rubik+80s+Fade&family=Rubik+Puddles&family=Rubik+Vinyl&family=Sevillana&display=swap');
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+#headernav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.845);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+#logo{
+    width: 100px;
+    height: 75px;
+}
+
+
+#headernav h5{
+    color: red;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Arima Madurai', cursive;
+
+}
+
+#list1{
+    list-style: none;
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+    color: white;
+    padding: 32px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: red;
+}
+
+#joinus a{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 1s;
+}
+
+#joinus:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#joinus{
+    align-items: center;
+    width: 125px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+#carousal{
+    background-image: url(./images/carousel-2.jpg);
+    background-color: rgb(60, 60, 60);
+    background-blend-mode: multiply;
+    display: inline-block;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#carousal h1{
+    font-size: 75px;
+    margin-top: 10px;
+    font-family: 'Arima Madurai', cursive;
+
+}
+#carousal h3{
+    font-size: 20px;
+}
+button{
+    margin: 10px 20px;
+}
+#joinus2{
+    background-color: rgb(255, 0, 0);
+    
+    padding: 10px 25px 10px 25px;
+    color: white;
+}
+#joinus2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#contactus{
+    padding: 10px 20px 10px 20px;
+
+}
+#contactus:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+#aboutdis{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+#aboutdis h2{
+    color: red;
+}
+#image1{
+    background-image: url(./images/about2.jpg);
+    border-radius: 10px;
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#aboutdis2{
+    width: 40%;
+    margin-left: 70px;
+    margin-right: 50PX;
+    font-size: large;
+}
+#scroll{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    
+}
+#bodydis{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#bodydis h2{
+    color: red;
+}
+#image2{
+    background-image: url(./images/maxresdefault.jpg);
+    border-radius: 10px;
+    width: 40%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#bodydis2{
+    width: 50%;
+    margin-left: 70px;
+    margin-right: 50PX;
+    font-size: large;
+    margin-top: 50px;
+}
+
+
+#weightdis{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#weightdis h2{
+    color: red;
+}
+#image3{
+    background-image: url(./images/carousel-1.jpg);
+    border-radius: 10px;
+    width: 40%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#weightdis2{
+    width: 50%;
+    margin-left: 70px;
+    margin-right: 50PX;
+    font-size: large;
+    margin-top: 50px;
+}
+
+
+
+#musdis{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#musdis h2{
+    color: red;
+}
+#image4{
+    background-image: url(./images/maxresdefault\ \(2\).jpg);
+    border-radius: 10px;
+    width: 40%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#musdis2{
+    width: 50%;
+    margin-left: 70px;
+    margin-right: 50PX;
+    font-size: large;
+    margin-top: 50px;
+}
+
+
+#experience{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.845) ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#member{
+    background-color: red;
+    color: white;
+}
+
+#member:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#trainersmain{
+    width: 100%;
+}
+#trainerssub{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+}
+
+#trainerssub h1{
+    margin-top: 5px;
+}
+
+#trainers{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+#trainer1{
+    background-image: url(./images/team-1.jpg);
+    width: 30%;
+    background-size: cover;
+    
+}
+#trainer2{
+    background-image: url(./images/pt2.jfif);
+    width: 30%;
+    background-size: cover;
+    background-position: bottom;
+}
+#trainer3{
+    background-image: url(./images/team-3.jpg);
+    width: 30%;
+    background-size: cover;
+    
+}
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.845) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#gt{
+    color: white;
+}
+
+#gt p:hover{
+    cursor: pointer;
+}
+
+#ql{
+    color: white;
+    text-decoration: none;
+}
+#ql a{
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: x-large;
+    transition: 1s;
+}
+
+#ql i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    
+}
+#list{
+    padding: 10px;
+}
